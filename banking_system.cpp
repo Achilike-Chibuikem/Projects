@@ -4,10 +4,11 @@ using namespace std;
 
 class Account
 {
-public:
+private:
     string name;
     double balance;
 
+public:
     Account(string n, double b)
     {
         name = n;
